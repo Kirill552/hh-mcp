@@ -8,6 +8,7 @@ KIMI_PROMPT.md
 .claude/
 .gemini/
 .kimi/
+.mcp.json
 
 # Python
 __pycache__/

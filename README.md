@@ -77,14 +77,23 @@ cp profile.example.json profile.json
 
 #### Claude Code
 
-Добавь в `~/.claude/settings.json`:
+**Вариант 1: Локально для проекта** (рекомендуется)
+
+```bash
+cp .mcp.json.example .mcp.json
+# Отредактируй путь в .mcp.json
+```
+
+**Вариант 2: Глобально**
+
+Добавь в `~/.claude.json`:
 
 ```json
 {
   "mcpServers": {
     "hh-tool": {
       "command": "uv",
-      "args": ["run", "python", "/path/to/hh-mcp/hh_mcp_server.py"]
+      "args": ["run", "--directory", "/path/to/hh-mcp", "python", "hh_mcp_server.py"]
     }
   }
 }

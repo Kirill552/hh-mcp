@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "hh-tool": {
+      "command": "uv",
+      "args": ["run", "--directory", "/path/to/hh-mcp", "python", "hh_mcp_server.py"]
+    }
+  }
+}
