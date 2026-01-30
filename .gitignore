@@ -1,0 +1,38 @@
+# Personal data
+profile.json
+i.md
+KIMI_PROMPT.md
+*.pdf
+
+# AI tool configs (personal)
+.claude/
+.gemini/
+.kimi/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dependencies (install via pip)
+hh-applicant-tool/
+
+# hh-applicant-tool credentials
+config.json

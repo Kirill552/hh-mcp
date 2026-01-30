@@ -1,0 +1,7 @@
+services:
+  hh-mcp:
+    build: .
+    environment:
+      - HH_ACCESS_TOKEN=${HH_ACCESS_TOKEN:-}
+    stdin_open: true
+    tty: true

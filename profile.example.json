@@ -1,0 +1,47 @@
+{
+  "name": "Иван Иванов",
+  "age": 30,
+  "location": "Москва (удалёнка)",
+  "contacts": {
+    "phone": "+7 (999) 123-45-67",
+    "email": "example@mail.com"
+  },
+  "projects_path": "C:\\Users\\username\\projects",
+  "salary": {
+    "min": 100000,
+    "max": 200000,
+    "currency": "RUB"
+  },
+  "tech_stack": {
+    "backend": ["Python", "FastAPI"],
+    "frontend": ["React", "Next.js"],
+    "ai_llm": ["OpenAI API", "Claude API"],
+    "automation": ["n8n", "webhooks"],
+    "database": ["PostgreSQL", "Redis"],
+    "devops": ["Docker", "GitHub Actions"],
+    "integrations": ["Telegram Bot API"]
+  },
+  "strengths": [
+    "Ваше преимущество 1",
+    "Ваше преимущество 2"
+  ],
+  "note": "Дополнительная информация о вас",
+  "honest_positioning": {
+    "reality": "Честное описание вашего уровня",
+    "position_as": "Как позиционируете себя",
+    "say": ["Что говорить на собеседовании"],
+    "dont_say": ["Чего избегать"],
+    "strengths_for_interview": [
+      "Сильная сторона 1",
+      "Сильная сторона 2"
+    ]
+  },
+  "target_vacancies": [
+    "Целевая вакансия 1",
+    "Целевая вакансия 2"
+  ],
+  "do_not_mention": [
+    "Что не упоминать 1"
+  ],
+  "cover_letter_template": "Здравствуйте!\n\nОткликаюсь на вакансию [НАЗВАНИЕ].\n\n[1-2 предложения почему интересна вакансия/компания]\n\nМой опыт:\n- [Релевантный проект 1]\n- [Релевантный проект 2]\n\n[Что могу принести компании]\n\nГотов к тестовому заданию и созвону.\n\n[Ваше имя]\n[Телефон]"
+}
